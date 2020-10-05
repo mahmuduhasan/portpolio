@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+.name{
+    color: rgb(240, 135, 234);
+}
+.grid{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 2%;
+    margin-top: 50px;
+}
+.grid img{
+    width: 85%;
+}
+.grid a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 8px 20px;
+    color: #ddd;
+    border-radius: 5px;
+    font-weight: 400;
+}
