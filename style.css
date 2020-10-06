@@ -2,8 +2,19 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
+    margin: 0;
+}
+section{
+    height: 500px;
+}
+.first-container{
     background-image: url('images/top-banner.png');
     background-repeat: no-repeat;
+}
+.second-container{
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .name{
     color: rgb(240, 135, 234);
@@ -25,4 +36,28 @@ body{
     color: #ddd;
     border-radius: 5px;
     font-weight: 400;
+}
+.third-container{
+    display: flex;
+    float: left;
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+#plan{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#now{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg,lightblue,blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
